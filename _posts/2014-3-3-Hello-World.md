@@ -3,7 +3,7 @@ layout: post
 title: You're up and running!
 ---
 
-test
+dog?
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
-test 2
+![_config.yml]({{ site.baseurl }}/images/dog.png)
+
