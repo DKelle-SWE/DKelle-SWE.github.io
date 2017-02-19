@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week Three 
+title: Week Five 
 ---
 
 This week in Software Engineering, my partner Maurya and I submitted our Netflix project. Early in the week, we finished up writing our prediction algorithm and fixing pylint and stylistic issues. We ran into an (almost) big problem when finishing up our prediction algorithm. We have our caches set up to be read as a byte stream through a series of web requests, which means we don't need to have local copies of any of the caches, they're simply read straight from the /u/fares/.../ directory. One morning, our request code started giving us errors that we hadn't seen before. I turned out that the cache our algorithm most heavily depended upon was deleted. This was a problem because there was basically no way for us to recover that specific cache. Luckily enough, I still had all the local copies I had made before we started reading the caches remotely. Without that cache, we would have largely had to come up with a different algorithm that did not depend on the missing cache. Side stepping this potential disaster, we simply had to re-upload the missing cache.
