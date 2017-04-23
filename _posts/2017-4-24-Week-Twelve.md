@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Week Eleven 
+title: Week Twelve 
 ---
 
 Last week in Software Engineering, we finalized our 3 installment of the database project. With this iteration of the database project, we had to implement a search bar, write user stories, utilize another group's API, and write self evaluations.
@@ -13,4 +13,4 @@ Prior to this assignment, we have never had experience with setting up our own i
 We also learned a lot about front-end development and Angular. Angular makes it easy to dynamically render content on a web page - for example, populating tables with the results of a dynamic SQL query.
 
 A lot of the requirements on these assignments require a minimum word count. If you are writing in terminal, there is an easy way to get the number of words in a given document.
-My tip of the week is the useful Bash command 'wc -w *filename*'. For example, if I want to check the word count of this weeks blog entry, I can type 'wc -w 2017-4-24-Week-Eleven.md'
+My tip of the week is the useful Bash command 'wc -w *filename*'. For example, if I want to check the word count of this weeks blog entry, I can type 'wc -w 2017-4-24-Week-Twelve.md'
